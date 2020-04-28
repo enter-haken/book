@@ -1,0 +1,5 @@
+# .vimrc
+
+## .vim folder
+
+## colors

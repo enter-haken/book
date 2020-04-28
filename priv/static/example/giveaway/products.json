@@ -1,0 +1,192 @@
+{
+    "data": [{
+            "category": "body",
+            "image": "/images/body01.jpg",
+            "colour": "white",
+            "size": "52",
+            "desc": "Weißer body",
+            "cols": 2
+        },
+        {
+            "category": "body",
+            "image": "/images/body02.jpg",
+            "colour": "pink",
+            "size": "52",
+            "desc": "Pinker body"
+        },
+        {
+            "category": "body",
+            "image": "/images/body03.jpg",
+            "colour": "grey",
+            "size": "52",
+            "desc": "Grau weißer Body mit Esel"
+        },
+        {
+            "category": "body",
+            "image": "/images/body04.jpg",
+            "colour": "red",
+            "size": "52",
+            "desc": "Roter Body mit Tedy",
+            "cols": 2
+        },
+        {
+            "category": "body",
+            "image": "/images/body05.jpg",
+            "colour": "white",
+            "size": "52",
+            "desc": "Weißer Body mit Reh Kitz"
+        },
+        {
+            "category": "bub",
+            "image": "/images/bub01.jpg",
+            "colour": "grey",
+            "desc": "Lätzchen in grau mit Sternen"
+        },
+        {
+            "category": "burp_cloth",
+            "image": "/images/burp_cloth01.jpg",
+            "colour": "white",
+            "desc": "3 Spucktücher mit Tieren"
+        },
+        {
+            "category": "burp_cloth",
+            "image": "/images/burp_cloth02.jpg",
+            "colour": "white",
+            "desc": "3 Spucktücher mit verschiedenen Motiven",
+            "cols": 2
+        },
+        {
+            "category": "burp_cloth",
+            "image": "/images/burp_cloth03.jpg",
+            "colour": "white",
+            "desc": "Spucktuch mit Stickerei"
+        },
+        {
+            "category": "cap",
+            "image": "/images/cap01.jpg",
+            "colour": "blue",
+            "desc": "Blaue Mütze mit Anker"
+        },
+        {
+            "category": "cap",
+            "image": "/images/cap02.jpg",
+            "colour": "blue",
+            "desc": "Blauweiße Strickmütze"
+        },
+        {
+            "category": "cap",
+            "image": "/images/cap03.jpg",
+            "colour": "grey",
+            "desc": "Grauweiße Strickmütze"
+        },
+        {
+            "category": "romper",
+            "image": "/images/romper01.jpg",
+            "colour": "grey",
+            "size" : "52",
+            "desc": "Graublauer Strampler mit Elefant",
+            "cols": 2
+        },
+        {
+            "category": "romper",
+            "image": "/images/romper02.jpg",
+            "colour": "blue",
+            "size" : "52",
+            "desc": "Blauer Strampler mit Sternen"
+        },
+        {
+            "category": "romper",
+            "image": "/images/romper03.jpg",
+            "colour": "blue",
+            "size" : "52",
+            "desc": "Blaurosa Strampler"
+        },
+        {
+            "category": "shirt",
+            "image": "/images/shirt01.jpg",
+            "colour": "white",
+            "size" : "52",
+            "desc": "white shirt"
+        },
+        {
+            "category": "shirt",
+            "image": "/images/shirt02.jpg",
+            "colour": "white",
+            "size" : "52",
+            "desc": "white shirt"
+        },
+        {
+            "category": "socks",
+            "image": "/images/socks01.jpg",
+            "colour": "red",
+            "size" : "19",
+            "desc": "rotweiße Wollsocken",
+            "cols": 2
+        },
+        {
+            "category": "socks",
+            "image": "/images/socks02.jpg",
+            "colour": "grey",
+            "size" : "19",
+            "desc": "Graurote Socken"
+        },
+        {
+            "category": "socks",
+            "image": "/images/socks03.jpg",
+            "colour": "grey",
+            "size" : "19",
+            "desc": "Grauweiße Socken mit Schriftzug 'I love mom'"
+        },
+        {
+            "category": "socks",
+            "image": "/images/socks04.jpg",
+            "colour": "blue",
+            "size" : "19",
+            "desc": "Blaurote Socken mit Anker"
+        },
+        {
+            "category": "socks",
+            "image": "/images/socks05.jpg",
+            "colour": "violet",
+            "size" : "19",
+            "desc": "Violette Ringelsocken mit Eulenmotiv"
+        },
+        {
+            "category": "socks",
+            "image": "/images/socks06.jpg",
+            "colour": "white",
+            "size" : "19",
+            "desc": "Stricksocken",
+            "cols": 2
+        },
+        {
+            "category": "tights",
+            "image": "/images/tights01.jpg",
+            "colour": "pink",
+            "size" : "52",
+            "desc": "Pinkweiße Strumpfhose mit Herzen"
+        },
+        {
+            "category": "tights",
+            "image": "/images/tights02.jpg",
+            "colour": "grey",
+            "size" : "52",
+            "desc": "Graue Strumphose mit roten Längsstreifen"
+        },
+        {
+            "category": "tights",
+            "image": "/images/tights03.jpg",
+            "colour": "pink",
+            "size" : "52",
+            "desc": "Pink gestreifte Strumpfhose"
+        },
+        {
+            "category": "tights",
+            "image": "/images/tights04.jpg",
+            "colour": "blue",
+            "size" : "52",
+            "desc": "Blauweiß gestreifte Strumpfhose von Tomy Hilfiger"
+        }
+    ],
+    "status": "ok"
+}

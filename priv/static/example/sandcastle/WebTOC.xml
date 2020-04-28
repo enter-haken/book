@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="df28a2c0-1546-4a1c-a4a6-63f57c84ac1d" Title="SandcastleTest.Base" Url="html/d179c1b5-5e6c-b3d6-3fb6-c4e934f83935.htm">
+    <HelpTOCNode Id="5a85ff7c-44c0-4408-85f0-799688d50d99" Title="Document Class" Url="html/2d65ed40-a949-8a30-45a9-e584ab57b989.htm">
+      <HelpTOCNode Title="Document Constructor " Url="html/f6075957-fca9-32d9-ee80-1be3170930dd.htm" />
+      <HelpTOCNode Id="1dbc3365-d998-4b57-b25e-9439c0602847" Title="Document Properties" Url="html/5cd40fd3-9c70-9d8f-2422-387f65e70fbc.htm">
+        <HelpTOCNode Title="Content Property " Url="html/ba010a1a-73c3-bb8a-0e81-8ce7c752aeb3.htm" />
+        <HelpTOCNode Title="Title Property " Url="html/8a1d2208-a679-8d1f-33d5-7843d4f4da9a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8fc1fda3-215c-449f-afda-92d71683bef0" Title="Document Methods" Url="html/83154c21-65b9-6013-2026-16eee9b07c7d.htm">
+        <HelpTOCNode Title="Print Method " Url="html/8a336936-be2f-016e-b234-443faf71dc1b.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/e9f03f17-a161-7324-b15e-9bc7738ac2a8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cb3e682c-040a-4303-afff-26db7ee6cf09" Title="IPrintable Interface" Url="html/157ba5a0-f822-044a-6c5b-49eeea5ef9df.htm">
+      <HelpTOCNode Id="55079965-525f-4c0b-a98c-a44c879fb081" Title="IPrintable Methods" Url="html/3ee303da-e9df-8e0b-62bf-e3fdd4d6b8f2.htm">
+        <HelpTOCNode Title="Print Method " Url="html/f7c43825-9868-ce90-0a31-c84851edfb00.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="adef810e-798a-4608-b1b3-807eae147b44" Title="SandcastleTest.Generic.DAL" Url="html/18a838f7-38ea-202f-ba6f-ab41dd229f3e.htm">
+    <HelpTOCNode Id="f3f32cc1-bb2b-4170-b7ef-74971338c5ac" Title="ICreateReadUpdateDelete(T) Interface" Url="html/c70240b8-b325-ea8b-d673-7098d376b33b.htm">
+      <HelpTOCNode Id="d6817f1f-7321-40d0-bffc-d27f7c64394e" Title="ICreateReadUpdateDelete(T) Methods" Url="html/024bf8ca-99df-fae9-e91f-7f28fa84dd59.htm">
+        <HelpTOCNode Title="Create Method " Url="html/cc044671-745c-de3e-a5f9-0f1a1ce7bb99.htm" />
+        <HelpTOCNode Title="Delete Method " Url="html/fa838e25-7818-0190-cafe-d4e8d6579f7b.htm" />
+        <HelpTOCNode Title="GetEntity Method " Url="html/806a008b-1006-324a-627a-1f60a2c2c076.htm" />
+        <HelpTOCNode Title="GetList Method " Url="html/216d7441-6577-7e68-c3de-855a4aae0796.htm" />
+        <HelpTOCNode Title="Update Method " Url="html/1ec156a6-b54a-325a-c558-132b6d942d48.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="4d63e8ed-dd73-468d-b12c-2a3ff841dd4c" Title="SandcastleTest.Generic.DAL.FileSystemStorage" Url="html/43981ca2-1577-9a75-8635-d98324d86bd0.htm">
+    <HelpTOCNode Id="2e83d98a-cb9b-4dd7-b0e4-61018ca26add" Title="ArticleAccess Class" Url="html/f9f339be-7c94-9082-1237-6c7e6fd5b591.htm">
+      <HelpTOCNode Title="ArticleAccess Constructor " Url="html/579331f7-51ad-12c4-04e6-7e2072ee75e0.htm" />
+      <HelpTOCNode Title="ArticleAccess Properties" Url="html/28befb07-ca2f-a122-d806-1206c0122447.htm" />
+      <HelpTOCNode Title="ArticleAccess Methods" Url="html/e806b72e-4e0e-a59c-8c33-82d8aa6f9a5f.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2c03d698-3661-4658-b0e6-537d63c2f1a7" Title="Crud(T) Class" Url="html/e8807ce7-b71c-ccbc-c71e-15c9299f5d9b.htm">
+      <HelpTOCNode Title="Crud(T) Constructor " Url="html/e5fac511-62a7-a661-faaf-20f8ca50768b.htm" />
+      <HelpTOCNode Id="65837ccc-8cb6-4f55-b1e8-ee55cd09a925" Title="Crud(T) Properties" Url="html/0fd527af-5908-775a-d17c-0629c4ef66e4.htm">
+        <HelpTOCNode Title="Content Property " Url="html/1a5d617f-50ea-9d86-9c00-d288971d5100.htm" />
+        <HelpTOCNode Title="FileName Property " Url="html/ca6b622b-0f57-9501-bf94-f362a704488e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e845655e-427c-4cd3-b3ea-0396dd3c8af1" Title="Crud(T) Methods" Url="html/5998b974-4056-1ed6-c8ac-9b430e2fd905.htm">
+        <HelpTOCNode Title="Create Method " Url="html/cb269f27-2013-4205-0bfb-42a6f8968adb.htm" />
+        <HelpTOCNode Title="Delete Method " Url="html/7c109150-5e92-c884-7345-46a69639ae7d.htm" />
+        <HelpTOCNode Title="Exists Method " Url="html/413220e5-8d62-8205-680c-3a58e2df2fd8.htm" />
+        <HelpTOCNode Title="GetEntity Method " Url="html/32268eca-fb71-9213-3278-c484c1a87325.htm" />
+        <HelpTOCNode Title="GetList Method " Url="html/3dba940e-05e4-1ca6-a408-6b000d2f6817.htm" />
+        <HelpTOCNode Id="0761839b-250e-4b16-b053-95f542bbd51c" Title="Store Method " Url="html/8b694d97-1d74-dfe8-3173-8583373fbf63.htm">
+          <HelpTOCNode Title="Store Method (List(T))" Url="html/33b8e6ea-f3e1-9886-6869-2b39e47c8d2a.htm" />
+          <HelpTOCNode Title="Store Method (String)" Url="html/f8b1136f-dc97-9b35-9b28-af46763c2527.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Update Method " Url="html/41c595a0-bd6b-60ea-437c-2a4614b4b8b5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="68eb8cd6-013e-4826-a785-574ae54403b6" Title="CustomerAccess Class" Url="html/f9bf04a0-9eaa-8366-d929-d5814c9b97cd.htm">
+      <HelpTOCNode Title="CustomerAccess Constructor " Url="html/6a0a0f21-383c-4b14-a981-4c4e6da64959.htm" />
+      <HelpTOCNode Title="CustomerAccess Properties" Url="html/f5a8bb06-f595-d4d2-6c6f-b81321c6e6ff.htm" />
+      <HelpTOCNode Title="CustomerAccess Methods" Url="html/bcba96a2-f12e-a82a-4824-49731ba9fbc1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f4c8ed62-116d-4027-aef0-00b5579a0e1d" Title="ICollectionExtension Class" Url="html/749bfb75-0194-ad83-e8e9-3d1300ad8ccd.htm">
+      <HelpTOCNode Id="de2c7bd2-c077-4c93-aca1-19fdeb8127e8" Title="ICollectionExtension Methods" Url="html/fb3f548d-ea9b-d85b-d26f-ac467b8c13aa.htm">
+        <HelpTOCNode Title="Replace(T) Method " Url="html/2aae950c-69e4-3ffd-5f84-53911fa4e647.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cfbc4092-31e5-4220-b455-18212ee6736c" Title="OrderAccess Class" Url="html/68ed41e2-364f-1826-f643-3d6d38dc3c99.htm">
+      <HelpTOCNode Title="OrderAccess Constructor " Url="html/13917584-0345-927b-e3a6-9af813d8bcf4.htm" />
+      <HelpTOCNode Title="OrderAccess Properties" Url="html/b53aea2d-99fe-d6de-e533-513bc3c29f3e.htm" />
+      <HelpTOCNode Title="OrderAccess Methods" Url="html/b0a78248-2ba9-028e-e4bf-92db8e4b01ad.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="a1b043f9-a293-4aa6-9c71-40e4f46840c7" Title="SandcastleTest.Generic.POCO" Url="html/417f59c1-282f-4fa0-2e13-ee651855c57e.htm">
+    <HelpTOCNode Id="1075c1c1-17e8-4b18-aba5-601ca7cc73c5" Title="Article Class" Url="html/29cb7498-25e7-a0de-6279-24ac12688681.htm">
+      <HelpTOCNode Title="Article Constructor " Url="html/df867a42-17ca-d059-a9c1-45d9a819e96d.htm" />
+      <HelpTOCNode Id="171439e1-27b3-4948-b28c-736a04dfbd52" Title="Article Properties" Url="html/5e75ab36-7322-5af4-51f4-db9c764000c5.htm">
+        <HelpTOCNode Title="BasePrice Property " Url="html/2b5ac581-6e23-95c9-32d6-04c1e108b0f9.htm" />
+        <HelpTOCNode Title="Description Property " Url="html/99687a78-18cb-7dec-1992-55af4461da38.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/48d50369-67f3-e370-331c-cf4ab6d645b9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Article Methods" Url="html/319057a6-c0dc-b799-e3a8-6fe02478ded7.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="06f2e4fe-b857-45fa-a32b-195cba50f1dc" Title="Customer Class" Url="html/7696b3d3-c681-f48b-bda3-db48fcaecb00.htm">
+      <HelpTOCNode Title="Customer Constructor " Url="html/18b7932b-5e75-16bd-1308-41cd1d0f045b.htm" />
+      <HelpTOCNode Id="2fef95c6-e2b3-4afe-b002-e0254919c3a1" Title="Customer Properties" Url="html/e35bf915-1b9c-44ac-af86-6b572dca7e82.htm">
+        <HelpTOCNode Title="CustomerNumber Property " Url="html/ef43ae73-791c-ae2a-1be9-684471af5631.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="47f15d8a-f76c-4c9f-9378-ad1e86c86917" Title="Customer Methods" Url="html/322758b1-66cf-706a-a152-8225861cbc23.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/1869ff28-4bd4-a5e8-db2c-ab8e889eea3a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d6e12163-8879-49d2-ad1b-211a10000a33" Title="Order Class" Url="html/1adfa61c-e1ff-a3b3-f157-e30083670091.htm">
+      <HelpTOCNode Title="Order Constructor " Url="html/47d0c0fb-db13-cbc5-34e2-3bdaedf5d1ec.htm" />
+      <HelpTOCNode Id="83337269-cf10-4889-aad4-8113b86005aa" Title="Order Properties" Url="html/d2cbeab3-2d59-e51f-b1da-08078903684d.htm">
+        <HelpTOCNode Title="Customer Property " Url="html/5bc83f1b-8711-f666-1f8d-4745bdcd4135.htm" />
+        <HelpTOCNode Title="OrderItems Property " Url="html/194ef1e1-40f4-36c5-5736-30b7bc80c359.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Order Methods" Url="html/5ef582a1-18ff-85cd-145f-afb8ffc8c56e.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7404a31b-121c-4e6f-b24b-8b617da77cf4" Title="OrderItem Class" Url="html/1323955d-fcbf-f361-c563-393df7ba45fe.htm">
+      <HelpTOCNode Title="OrderItem Constructor " Url="html/f6812741-b8bc-9153-884a-bafd33979a75.htm" />
+      <HelpTOCNode Id="ead27ee7-e43a-401c-991d-ca94c1bb4eb7" Title="OrderItem Properties" Url="html/c69d8b3f-eb16-ccc4-1ec5-b5bfdcd07c9b.htm">
+        <HelpTOCNode Title="Amount Property " Url="html/570a985d-e435-aa5f-6261-1b6f3d55d399.htm" />
+        <HelpTOCNode Title="Article Property " Url="html/4dd15e7b-ee64-5574-3146-01cf07037c57.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="OrderItem Methods" Url="html/d44ed657-bf97-38c1-92c0-9fc0f478e0c4.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0c5f7761-b737-4cc2-96e2-caf9b862b8eb" Title="Person Class" Url="html/cc5624ed-c08d-ab34-c42e-4b97de71fa4c.htm">
+      <HelpTOCNode Title="Person Constructor " Url="html/18a26624-5327-c3aa-edcf-e54f448aeb95.htm" />
+      <HelpTOCNode Id="bf3f9332-93b0-45e6-b748-070bd68ac0e5" Title="Person Properties" Url="html/b86e4b06-2ab5-d469-bafe-0bec0ce59471.htm">
+        <HelpTOCNode Title="FirstName Property " Url="html/e98d0da0-2705-7e15-6d11-45b5c0fcb64a.htm" />
+        <HelpTOCNode Title="LastName Property " Url="html/5a8bc923-e1f9-8fe1-0311-b4dfe72f40fb.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="331cb210-227d-4da3-bb37-272a5d9ff9a0" Title="Person Methods" Url="html/bd0f7d68-959e-927d-6883-873d940e8580.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/84e8b33d-ca7d-a4df-0842-df456b8736f6.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a411e491-9280-4fe0-a04d-ec09ff5f6beb" Title="PocoBase Class" Url="html/13bfd19d-c97e-6529-9f9a-30c4a00fa80e.htm">
+      <HelpTOCNode Title="PocoBase Constructor " Url="html/202f2ee2-cf18-c1e0-33b2-c419e8870790.htm" />
+      <HelpTOCNode Id="1967b1d7-5e36-4bc5-8c1a-cd9333e738b7" Title="PocoBase Properties" Url="html/7170ad1c-95d8-9cab-9fc8-2710b64ed14b.htm">
+        <HelpTOCNode Title="Id Property " Url="html/692f8173-d642-6aeb-266c-6f7d9f1db0e5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7b2d6a45-5f60-4617-a9ec-d9b9c73ef214" Title="PocoBase Methods" Url="html/6539e0f5-7373-8fc5-264f-611deead36f4.htm">
+        <HelpTOCNode Title="GetHashCode Method " Url="html/d55db76e-2794-e005-6422-ea9f8d0a9063.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d7c10cc9-61d5-4938-9c63-2c177a10c7d0" Title="PocoBaseEqualityComparer Class" Url="html/7e3473d7-012c-62ab-c2ca-6325b5cfb706.htm">
+      <HelpTOCNode Title="PocoBaseEqualityComparer Constructor " Url="html/f5f04559-32ac-da84-1b2a-2d9c1f3b6708.htm" />
+      <HelpTOCNode Id="91ffd716-201d-43aa-b7a8-5c8c6fe59aef" Title="PocoBaseEqualityComparer Methods" Url="html/c922770c-cbda-381b-7875-e3ac7fb8d804.htm">
+        <HelpTOCNode Id="0636d13a-5905-47bb-b1ae-2d1d17368ef7" Title="Equals Method " Url="html/d2ba78fe-1972-4a02-a07d-64e5335d6b01.htm">
+          <HelpTOCNode Title="Equals Method (PocoBase, PocoBase)" Url="html/ca3ed347-af12-d200-410b-ff7877910a55.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c20fabbe-dab2-4f42-a958-33b1d7959b1d" Title="GetHashCode Method " Url="html/f726f6ce-c4b9-bf0b-3549-bc079a0af6b6.htm">
+          <HelpTOCNode Title="GetHashCode Method (PocoBase)" Url="html/e7a3ec1f-e9d8-326f-0557-438f48d861e1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

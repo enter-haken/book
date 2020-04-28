@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/book.css">
+    <link rel="stylesheet"
+          href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/styles/default.min.css">
+
+    <script data-ad-client="ca-pub-1392944260213839" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <title>craftsmanship - <%= title %></title>
+  </head>
+  <body>
+    <!-- https://www.freecodecamp.org/news/how-to-build-a-responsive-tesla-launch-page-with-bulma-css-2bf484057349/ -->
+    <section class="hero is-info is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            <a href="/" class="has-text-white">
+              dev notes
+            </a>
+          </h1>
+          <h2 class="subtitle">
+            software development craftsmanship
+          </h2>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <nav class="tabs is-boxed is-fullwidth">
+          <div class="container">
+            <ul>
+              <%= for %{url: url, title: title, is_active: is_active} <- menu do %>
+                <%= if is_active do %>
+                  <li class="is-active"><a href="<%= url %>"> <%= title %></a></li>
+                <% else %>
+                  <li><a href="<%= url %>"> <%= title %></a></li>
+                <% end %>
+              <% end %>
+            </ul>
+          </div>
+        </nav>
+
+      </div>
+    </section>
+    <section class="section">
+      <div class="colums">
+        <div class="column is-10 is-offset-1 content">
+          <a href="/"> home</a>
+          <%= for %{url: url, title: title} <- bread_crumps do %>
+            / <a href="<%= url %>"><%= title %></a>
+          <% end %>
+        </div>
+
+        <%= if !is_nil(body) do %>
+          <div class="colums">
+            <div class="column is-10 is-offset-1 content">
+              <%= body %>
+            </div>
+          </div>
+        <% end %>
+        <%= if !is_nil(teasers) do %>
+          <div class="column is-10 is-offset-1 content">
+            <%= for %{teaser: teaser, url: url} <- teasers do %>
+              <%= teaser %>
+              <p>
+              <a href="<%= url %>">more</a>
+              </p>
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+    </section>
+
+    <footer class="footer is-primary">
+      <div class="content has-text-centered">
+        created by Jan Frederik Hake |
+        <!--<a href="https://enter-haken.github.io/atom.xml">atom feed</a> |-->
+        <a href="/about.html">about</a> |
+        <a href="/blog">blog</a> |
+        the source code on this site is covered by a <a href="/license.html">MIT license</a> |
+        content licenced with <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>
+      </div>
+    </footer>
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

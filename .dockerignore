@@ -1,0 +1,5 @@
+./deps/
+./_build
+./priv/generated
+./priv/styles/node_modules/
+./priv/styles/test_page.html

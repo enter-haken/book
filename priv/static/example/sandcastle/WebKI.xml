@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Amount property" Url="html/570a985d-e435-aa5f-6261-1b6f3d55d399.htm" />
+  <HelpKINode Title="Article class">
+    <HelpKINode Title="Article Class" Url="html/29cb7498-25e7-a0de-6279-24ac12688681.htm" />
+    <HelpKINode Title="about Article class" Url="html/29cb7498-25e7-a0de-6279-24ac12688681.htm" />
+    <HelpKINode Title="constructor" Url="html/df867a42-17ca-d059-a9c1-45d9a819e96d.htm" />
+    <HelpKINode Title="methods" Url="html/319057a6-c0dc-b799-e3a8-6fe02478ded7.htm" />
+    <HelpKINode Title="properties" Url="html/5e75ab36-7322-5af4-51f4-db9c764000c5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Article property" Url="html/4dd15e7b-ee64-5574-3146-01cf07037c57.htm" />
+  <HelpKINode Title="Article.Article constructor" Url="html/df867a42-17ca-d059-a9c1-45d9a819e96d.htm" />
+  <HelpKINode Title="Article.BasePrice property" Url="html/2b5ac581-6e23-95c9-32d6-04c1e108b0f9.htm" />
+  <HelpKINode Title="Article.Description property" Url="html/99687a78-18cb-7dec-1992-55af4461da38.htm" />
+  <HelpKINode Title="Article.Name property" Url="html/48d50369-67f3-e370-331c-cf4ab6d645b9.htm" />
+  <HelpKINode Title="ArticleAccess class">
+    <HelpKINode Title="ArticleAccess Class" Url="html/f9f339be-7c94-9082-1237-6c7e6fd5b591.htm" />
+    <HelpKINode Title="about ArticleAccess class" Url="html/f9f339be-7c94-9082-1237-6c7e6fd5b591.htm" />
+    <HelpKINode Title="constructor" Url="html/579331f7-51ad-12c4-04e6-7e2072ee75e0.htm" />
+    <HelpKINode Title="methods" Url="html/e806b72e-4e0e-a59c-8c33-82d8aa6f9a5f.htm" />
+    <HelpKINode Title="properties" Url="html/28befb07-ca2f-a122-d806-1206c0122447.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ArticleAccess.ArticleAccess constructor" Url="html/579331f7-51ad-12c4-04e6-7e2072ee75e0.htm" />
+  <HelpKINode Title="BasePrice property" Url="html/2b5ac581-6e23-95c9-32d6-04c1e108b0f9.htm" />
+  <HelpKINode Title="Content property">
+    <HelpKINode Title="Crud(T).Content Property " Url="html/1a5d617f-50ea-9d86-9c00-d288971d5100.htm" />
+    <HelpKINode Title="Document.Content Property " Url="html/ba010a1a-73c3-bb8a-0e81-8ce7c752aeb3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Create method">
+    <HelpKINode Title="Crud(T).Create Method " Url="html/cb269f27-2013-4205-0bfb-42a6f8968adb.htm" />
+    <HelpKINode Title="ICreateReadUpdateDelete(T).Create Method " Url="html/cc044671-745c-de3e-a5f9-0f1a1ce7bb99.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Crud(Of T) class">
+    <HelpKINode Title="Crud(T) Class" Url="html/e8807ce7-b71c-ccbc-c71e-15c9299f5d9b.htm" />
+    <HelpKINode Title="about Crud(Of T) class" Url="html/e8807ce7-b71c-ccbc-c71e-15c9299f5d9b.htm" />
+    <HelpKINode Title="constructor" Url="html/e5fac511-62a7-a661-faaf-20f8ca50768b.htm" />
+    <HelpKINode Title="methods" Url="html/5998b974-4056-1ed6-c8ac-9b430e2fd905.htm" />
+    <HelpKINode Title="properties" Url="html/0fd527af-5908-775a-d17c-0629c4ef66e4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Crud(Of T).Content property" Url="html/1a5d617f-50ea-9d86-9c00-d288971d5100.htm" />
+  <HelpKINode Title="Crud(Of T).Create method" Url="html/cb269f27-2013-4205-0bfb-42a6f8968adb.htm" />
+  <HelpKINode Title="Crud(Of T).Crud constructor" Url="html/e5fac511-62a7-a661-faaf-20f8ca50768b.htm" />
+  <HelpKINode Title="Crud(Of T).Delete method" Url="html/7c109150-5e92-c884-7345-46a69639ae7d.htm" />
+  <HelpKINode Title="Crud(Of T).Exists method" Url="html/413220e5-8d62-8205-680c-3a58e2df2fd8.htm" />
+  <HelpKINode Title="Crud(Of T).FileName property" Url="html/ca6b622b-0f57-9501-bf94-f362a704488e.htm" />
+  <HelpKINode Title="Crud(Of T).GetEntity method" Url="html/32268eca-fb71-9213-3278-c484c1a87325.htm" />
+  <HelpKINode Title="Crud(Of T).GetList method" Url="html/3dba940e-05e4-1ca6-a408-6b000d2f6817.htm" />
+  <HelpKINode Title="Crud(Of T).Store method" Url="html/8b694d97-1d74-dfe8-3173-8583373fbf63.htm" />
+  <HelpKINode Title="Crud(Of T).Update method" Url="html/41c595a0-bd6b-60ea-437c-2a4614b4b8b5.htm" />
+  <HelpKINode Title="Crud&lt;T&gt; class">
+    <HelpKINode Title="Crud(T) Class" Url="html/e8807ce7-b71c-ccbc-c71e-15c9299f5d9b.htm" />
+    <HelpKINode Title="about Crud&lt;T&gt; class" Url="html/e8807ce7-b71c-ccbc-c71e-15c9299f5d9b.htm" />
+    <HelpKINode Title="constructor" Url="html/e5fac511-62a7-a661-faaf-20f8ca50768b.htm" />
+    <HelpKINode Title="methods" Url="html/5998b974-4056-1ed6-c8ac-9b430e2fd905.htm" />
+    <HelpKINode Title="properties" Url="html/0fd527af-5908-775a-d17c-0629c4ef66e4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Crud&lt;T&gt;.Content property" Url="html/1a5d617f-50ea-9d86-9c00-d288971d5100.htm" />
+  <HelpKINode Title="Crud&lt;T&gt;.Create method" Url="html/cb269f27-2013-4205-0bfb-42a6f8968adb.htm" />
+  <HelpKINode Title="Crud&lt;T&gt;.Crud constructor" Url="html/e5fac511-62a7-a661-faaf-20f8ca50768b.htm" />
+  <HelpKINode Title="Crud&lt;T&gt;.Delete method" Url="html/7c109150-5e92-c884-7345-46a69639ae7d.htm" />
+  <HelpKINode Title="Crud&lt;T&gt;.Exists method" Url="html/413220e5-8d62-8205-680c-3a58e2df2fd8.htm" />
+  <HelpKINode Title="Crud&lt;T&gt;.FileName property" Url="html/ca6b622b-0f57-9501-bf94-f362a704488e.htm" />
+  <HelpKINode Title="Crud&lt;T&gt;.GetEntity method" Url="html/32268eca-fb71-9213-3278-c484c1a87325.htm" />
+  <HelpKINode Title="Crud&lt;T&gt;.GetList method" Url="html/3dba940e-05e4-1ca6-a408-6b000d2f6817.htm" />
+  <HelpKINode Title="Crud&lt;T&gt;.Store method" Url="html/8b694d97-1d74-dfe8-3173-8583373fbf63.htm" />
+  <HelpKINode Title="Crud&lt;T&gt;.Update method" Url="html/41c595a0-bd6b-60ea-437c-2a4614b4b8b5.htm" />
+  <HelpKINode Title="Customer class">
+    <HelpKINode Title="Customer Class" Url="html/7696b3d3-c681-f48b-bda3-db48fcaecb00.htm" />
+    <HelpKINode Title="about Customer class" Url="html/7696b3d3-c681-f48b-bda3-db48fcaecb00.htm" />
+    <HelpKINode Title="constructor" Url="html/18b7932b-5e75-16bd-1308-41cd1d0f045b.htm" />
+    <HelpKINode Title="methods" Url="html/322758b1-66cf-706a-a152-8225861cbc23.htm" />
+    <HelpKINode Title="properties" Url="html/e35bf915-1b9c-44ac-af86-6b572dca7e82.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Customer property" Url="html/5bc83f1b-8711-f666-1f8d-4745bdcd4135.htm" />
+  <HelpKINode Title="Customer.Customer constructor" Url="html/18b7932b-5e75-16bd-1308-41cd1d0f045b.htm" />
+  <HelpKINode Title="Customer.CustomerNumber property" Url="html/ef43ae73-791c-ae2a-1be9-684471af5631.htm" />
+  <HelpKINode Title="Customer.ToString method" Url="html/1869ff28-4bd4-a5e8-db2c-ab8e889eea3a.htm" />
+  <HelpKINode Title="CustomerAccess class">
+    <HelpKINode Title="CustomerAccess Class" Url="html/f9bf04a0-9eaa-8366-d929-d5814c9b97cd.htm" />
+    <HelpKINode Title="about CustomerAccess class" Url="html/f9bf04a0-9eaa-8366-d929-d5814c9b97cd.htm" />
+    <HelpKINode Title="constructor" Url="html/6a0a0f21-383c-4b14-a981-4c4e6da64959.htm" />
+    <HelpKINode Title="methods" Url="html/bcba96a2-f12e-a82a-4824-49731ba9fbc1.htm" />
+    <HelpKINode Title="properties" Url="html/f5a8bb06-f595-d4d2-6c6f-b81321c6e6ff.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CustomerAccess.CustomerAccess constructor" Url="html/6a0a0f21-383c-4b14-a981-4c4e6da64959.htm" />
+  <HelpKINode Title="CustomerNumber property" Url="html/ef43ae73-791c-ae2a-1be9-684471af5631.htm" />
+  <HelpKINode Title="Delete method">
+    <HelpKINode Title="Crud(T).Delete Method " Url="html/7c109150-5e92-c884-7345-46a69639ae7d.htm" />
+    <HelpKINode Title="ICreateReadUpdateDelete(T).Delete Method " Url="html/fa838e25-7818-0190-cafe-d4e8d6579f7b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Description property" Url="html/99687a78-18cb-7dec-1992-55af4461da38.htm" />
+  <HelpKINode Title="Document class">
+    <HelpKINode Title="Document Class" Url="html/2d65ed40-a949-8a30-45a9-e584ab57b989.htm" />
+    <HelpKINode Title="about Document class" Url="html/2d65ed40-a949-8a30-45a9-e584ab57b989.htm" />
+    <HelpKINode Title="constructor" Url="html/f6075957-fca9-32d9-ee80-1be3170930dd.htm" />
+    <HelpKINode Title="methods" Url="html/83154c21-65b9-6013-2026-16eee9b07c7d.htm" />
+    <HelpKINode Title="properties" Url="html/5cd40fd3-9c70-9d8f-2422-387f65e70fbc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Document.Content property" Url="html/ba010a1a-73c3-bb8a-0e81-8ce7c752aeb3.htm" />
+  <HelpKINode Title="Document.Document constructor" Url="html/f6075957-fca9-32d9-ee80-1be3170930dd.htm" />
+  <HelpKINode Title="Document.Print method" Url="html/8a336936-be2f-016e-b234-443faf71dc1b.htm" />
+  <HelpKINode Title="Document.Title property" Url="html/8a1d2208-a679-8d1f-33d5-7843d4f4da9a.htm" />
+  <HelpKINode Title="Document.ToString method" Url="html/e9f03f17-a161-7324-b15e-9bc7738ac2a8.htm" />
+  <HelpKINode Title="Equals method" Url="html/d2ba78fe-1972-4a02-a07d-64e5335d6b01.htm" />
+  <HelpKINode Title="Exists method" Url="html/413220e5-8d62-8205-680c-3a58e2df2fd8.htm" />
+  <HelpKINode Title="FileName property" Url="html/ca6b622b-0f57-9501-bf94-f362a704488e.htm" />
+  <HelpKINode Title="FirstName property" Url="html/e98d0da0-2705-7e15-6d11-45b5c0fcb64a.htm" />
+  <HelpKINode Title="GetEntity method">
+    <HelpKINode Title="Crud(T).GetEntity Method " Url="html/32268eca-fb71-9213-3278-c484c1a87325.htm" />
+    <HelpKINode Title="ICreateReadUpdateDelete(T).GetEntity Method " Url="html/806a008b-1006-324a-627a-1f60a2c2c076.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetHashCode method">
+    <HelpKINode Title="PocoBase.GetHashCode Method " Url="html/d55db76e-2794-e005-6422-ea9f8d0a9063.htm" />
+    <HelpKINode Title="PocoBaseEqualityComparer.GetHashCode Method " Url="html/f726f6ce-c4b9-bf0b-3549-bc079a0af6b6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetList method">
+    <HelpKINode Title="Crud(T).GetList Method " Url="html/3dba940e-05e4-1ca6-a408-6b000d2f6817.htm" />
+    <HelpKINode Title="ICreateReadUpdateDelete(T).GetList Method " Url="html/216d7441-6577-7e68-c3de-855a4aae0796.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollectionExtension class">
+    <HelpKINode Title="ICollectionExtension Class" Url="html/749bfb75-0194-ad83-e8e9-3d1300ad8ccd.htm" />
+    <HelpKINode Title="about ICollectionExtension class" Url="html/749bfb75-0194-ad83-e8e9-3d1300ad8ccd.htm" />
+    <HelpKINode Title="methods" Url="html/fb3f548d-ea9b-d85b-d26f-ac467b8c13aa.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollectionExtension.Replace(Of T) method" Url="html/2aae950c-69e4-3ffd-5f84-53911fa4e647.htm" />
+  <HelpKINode Title="ICollectionExtension.Replace&lt;T&gt; method" Url="html/2aae950c-69e4-3ffd-5f84-53911fa4e647.htm" />
+  <HelpKINode Title="ICreateReadUpdateDelete(Of T) interface">
+    <HelpKINode Title="ICreateReadUpdateDelete(T) Interface" Url="html/c70240b8-b325-ea8b-d673-7098d376b33b.htm" />
+    <HelpKINode Title="about ICreateReadUpdateDelete(Of T) interface" Url="html/c70240b8-b325-ea8b-d673-7098d376b33b.htm" />
+    <HelpKINode Title="methods" Url="html/024bf8ca-99df-fae9-e91f-7f28fa84dd59.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICreateReadUpdateDelete(Of T).Create method" Url="html/cc044671-745c-de3e-a5f9-0f1a1ce7bb99.htm" />
+  <HelpKINode Title="ICreateReadUpdateDelete(Of T).Delete method" Url="html/fa838e25-7818-0190-cafe-d4e8d6579f7b.htm" />
+  <HelpKINode Title="ICreateReadUpdateDelete(Of T).GetEntity method" Url="html/806a008b-1006-324a-627a-1f60a2c2c076.htm" />
+  <HelpKINode Title="ICreateReadUpdateDelete(Of T).GetList method" Url="html/216d7441-6577-7e68-c3de-855a4aae0796.htm" />
+  <HelpKINode Title="ICreateReadUpdateDelete(Of T).Update method" Url="html/1ec156a6-b54a-325a-c558-132b6d942d48.htm" />
+  <HelpKINode Title="ICreateReadUpdateDelete&lt;T&gt; interface">
+    <HelpKINode Title="ICreateReadUpdateDelete(T) Interface" Url="html/c70240b8-b325-ea8b-d673-7098d376b33b.htm" />
+    <HelpKINode Title="about ICreateReadUpdateDelete&lt;T&gt; interface" Url="html/c70240b8-b325-ea8b-d673-7098d376b33b.htm" />
+    <HelpKINode Title="methods" Url="html/024bf8ca-99df-fae9-e91f-7f28fa84dd59.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICreateReadUpdateDelete&lt;T&gt;.Create method" Url="html/cc044671-745c-de3e-a5f9-0f1a1ce7bb99.htm" />
+  <HelpKINode Title="ICreateReadUpdateDelete&lt;T&gt;.Delete method" Url="html/fa838e25-7818-0190-cafe-d4e8d6579f7b.htm" />
+  <HelpKINode Title="ICreateReadUpdateDelete&lt;T&gt;.GetEntity method" Url="html/806a008b-1006-324a-627a-1f60a2c2c076.htm" />
+  <HelpKINode Title="ICreateReadUpdateDelete&lt;T&gt;.GetList method" Url="html/216d7441-6577-7e68-c3de-855a4aae0796.htm" />
+  <HelpKINode Title="ICreateReadUpdateDelete&lt;T&gt;.Update method" Url="html/1ec156a6-b54a-325a-c558-132b6d942d48.htm" />
+  <HelpKINode Title="Id property" Url="html/692f8173-d642-6aeb-266c-6f7d9f1db0e5.htm" />
+  <HelpKINode Title="IPrintable interface">
+    <HelpKINode Title="IPrintable Interface" Url="html/157ba5a0-f822-044a-6c5b-49eeea5ef9df.htm" />
+    <HelpKINode Title="about IPrintable interface" Url="html/157ba5a0-f822-044a-6c5b-49eeea5ef9df.htm" />
+    <HelpKINode Title="methods" Url="html/3ee303da-e9df-8e0b-62bf-e3fdd4d6b8f2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IPrintable.Print method" Url="html/f7c43825-9868-ce90-0a31-c84851edfb00.htm" />
+  <HelpKINode Title="LastName property" Url="html/5a8bc923-e1f9-8fe1-0311-b4dfe72f40fb.htm" />
+  <HelpKINode Title="Name property" Url="html/48d50369-67f3-e370-331c-cf4ab6d645b9.htm" />
+  <HelpKINode Title="Order class">
+    <HelpKINode Title="Order Class" Url="html/1adfa61c-e1ff-a3b3-f157-e30083670091.htm" />
+    <HelpKINode Title="about Order class" Url="html/1adfa61c-e1ff-a3b3-f157-e30083670091.htm" />
+    <HelpKINode Title="constructor" Url="html/47d0c0fb-db13-cbc5-34e2-3bdaedf5d1ec.htm" />
+    <HelpKINode Title="methods" Url="html/5ef582a1-18ff-85cd-145f-afb8ffc8c56e.htm" />
+    <HelpKINode Title="properties" Url="html/d2cbeab3-2d59-e51f-b1da-08078903684d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Order.Customer property" Url="html/5bc83f1b-8711-f666-1f8d-4745bdcd4135.htm" />
+  <HelpKINode Title="Order.Order constructor" Url="html/47d0c0fb-db13-cbc5-34e2-3bdaedf5d1ec.htm" />
+  <HelpKINode Title="Order.OrderItems property" Url="html/194ef1e1-40f4-36c5-5736-30b7bc80c359.htm" />
+  <HelpKINode Title="OrderAccess class">
+    <HelpKINode Title="OrderAccess Class" Url="html/68ed41e2-364f-1826-f643-3d6d38dc3c99.htm" />
+    <HelpKINode Title="about OrderAccess class" Url="html/68ed41e2-364f-1826-f643-3d6d38dc3c99.htm" />
+    <HelpKINode Title="constructor" Url="html/13917584-0345-927b-e3a6-9af813d8bcf4.htm" />
+    <HelpKINode Title="methods" Url="html/b0a78248-2ba9-028e-e4bf-92db8e4b01ad.htm" />
+    <HelpKINode Title="properties" Url="html/b53aea2d-99fe-d6de-e533-513bc3c29f3e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OrderAccess.OrderAccess constructor" Url="html/13917584-0345-927b-e3a6-9af813d8bcf4.htm" />
+  <HelpKINode Title="OrderItem class">
+    <HelpKINode Title="OrderItem Class" Url="html/1323955d-fcbf-f361-c563-393df7ba45fe.htm" />
+    <HelpKINode Title="about OrderItem class" Url="html/1323955d-fcbf-f361-c563-393df7ba45fe.htm" />
+    <HelpKINode Title="constructor" Url="html/f6812741-b8bc-9153-884a-bafd33979a75.htm" />
+    <HelpKINode Title="methods" Url="html/d44ed657-bf97-38c1-92c0-9fc0f478e0c4.htm" />
+    <HelpKINode Title="properties" Url="html/c69d8b3f-eb16-ccc4-1ec5-b5bfdcd07c9b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OrderItem.Amount property" Url="html/570a985d-e435-aa5f-6261-1b6f3d55d399.htm" />
+  <HelpKINode Title="OrderItem.Article property" Url="html/4dd15e7b-ee64-5574-3146-01cf07037c57.htm" />
+  <HelpKINode Title="OrderItem.OrderItem constructor" Url="html/f6812741-b8bc-9153-884a-bafd33979a75.htm" />
+  <HelpKINode Title="OrderItems property" Url="html/194ef1e1-40f4-36c5-5736-30b7bc80c359.htm" />
+  <HelpKINode Title="Person class">
+    <HelpKINode Title="Person Class" Url="html/cc5624ed-c08d-ab34-c42e-4b97de71fa4c.htm" />
+    <HelpKINode Title="about Person class" Url="html/cc5624ed-c08d-ab34-c42e-4b97de71fa4c.htm" />
+    <HelpKINode Title="constructor" Url="html/18a26624-5327-c3aa-edcf-e54f448aeb95.htm" />
+    <HelpKINode Title="methods" Url="html/bd0f7d68-959e-927d-6883-873d940e8580.htm" />
+    <HelpKINode Title="properties" Url="html/b86e4b06-2ab5-d469-bafe-0bec0ce59471.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Person.FirstName property" Url="html/e98d0da0-2705-7e15-6d11-45b5c0fcb64a.htm" />
+  <HelpKINode Title="Person.LastName property" Url="html/5a8bc923-e1f9-8fe1-0311-b4dfe72f40fb.htm" />
+  <HelpKINode Title="Person.Person constructor" Url="html/18a26624-5327-c3aa-edcf-e54f448aeb95.htm" />
+  <HelpKINode Title="Person.ToString method" Url="html/84e8b33d-ca7d-a4df-0842-df456b8736f6.htm" />
+  <HelpKINode Title="PocoBase class">
+    <HelpKINode Title="PocoBase Class" Url="html/13bfd19d-c97e-6529-9f9a-30c4a00fa80e.htm" />
+    <HelpKINode Title="about PocoBase class" Url="html/13bfd19d-c97e-6529-9f9a-30c4a00fa80e.htm" />
+    <HelpKINode Title="constructor" Url="html/202f2ee2-cf18-c1e0-33b2-c419e8870790.htm" />
+    <HelpKINode Title="methods" Url="html/6539e0f5-7373-8fc5-264f-611deead36f4.htm" />
+    <HelpKINode Title="properties" Url="html/7170ad1c-95d8-9cab-9fc8-2710b64ed14b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PocoBase.GetHashCode method" Url="html/d55db76e-2794-e005-6422-ea9f8d0a9063.htm" />
+  <HelpKINode Title="PocoBase.Id property" Url="html/692f8173-d642-6aeb-266c-6f7d9f1db0e5.htm" />
+  <HelpKINode Title="PocoBase.PocoBase constructor" Url="html/202f2ee2-cf18-c1e0-33b2-c419e8870790.htm" />
+  <HelpKINode Title="PocoBaseEqualityComparer class">
+    <HelpKINode Title="PocoBaseEqualityComparer Class" Url="html/7e3473d7-012c-62ab-c2ca-6325b5cfb706.htm" />
+    <HelpKINode Title="about PocoBaseEqualityComparer class" Url="html/7e3473d7-012c-62ab-c2ca-6325b5cfb706.htm" />
+    <HelpKINode Title="constructor" Url="html/f5f04559-32ac-da84-1b2a-2d9c1f3b6708.htm" />
+    <HelpKINode Title="methods" Url="html/c922770c-cbda-381b-7875-e3ac7fb8d804.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PocoBaseEqualityComparer.Equals method" Url="html/d2ba78fe-1972-4a02-a07d-64e5335d6b01.htm" />
+  <HelpKINode Title="PocoBaseEqualityComparer.GetHashCode method" Url="html/f726f6ce-c4b9-bf0b-3549-bc079a0af6b6.htm" />
+  <HelpKINode Title="PocoBaseEqualityComparer.PocoBaseEqualityComparer constructor" Url="html/f5f04559-32ac-da84-1b2a-2d9c1f3b6708.htm" />
+  <HelpKINode Title="Print method">
+    <HelpKINode Title="Document.Print Method " Url="html/8a336936-be2f-016e-b234-443faf71dc1b.htm" />
+    <HelpKINode Title="IPrintable.Print Method " Url="html/f7c43825-9868-ce90-0a31-c84851edfb00.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Replace(Of T) method" Url="html/2aae950c-69e4-3ffd-5f84-53911fa4e647.htm" />
+  <HelpKINode Title="Replace&lt;T&gt; method" Url="html/2aae950c-69e4-3ffd-5f84-53911fa4e647.htm" />
+  <HelpKINode Title="SandcastleTest.Base namespace" Url="html/d179c1b5-5e6c-b3d6-3fb6-c4e934f83935.htm" />
+  <HelpKINode Title="SandcastleTest.Base.Document class" Url="html/2d65ed40-a949-8a30-45a9-e584ab57b989.htm" />
+  <HelpKINode Title="SandcastleTest.Base.IPrintable interface" Url="html/157ba5a0-f822-044a-6c5b-49eeea5ef9df.htm" />
+  <HelpKINode Title="SandcastleTest.Generic.DAL namespace" Url="html/18a838f7-38ea-202f-ba6f-ab41dd229f3e.htm" />
+  <HelpKINode Title="SandcastleTest.Generic.DAL.FileSystemStorage namespace" Url="html/43981ca2-1577-9a75-8635-d98324d86bd0.htm" />
+  <HelpKINode Title="SandcastleTest.Generic.DAL.FileSystemStorage.ArticleAccess class" Url="html/f9f339be-7c94-9082-1237-6c7e6fd5b591.htm" />
+  <HelpKINode Title="SandcastleTest.Generic.DAL.FileSystemStorage.Crud(Of T) class" Url="html/e8807ce7-b71c-ccbc-c71e-15c9299f5d9b.htm" />
+  <HelpKINode Title="SandcastleTest.Generic.DAL.FileSystemStorage.Crud&lt;T&gt; class" Url="html/e8807ce7-b71c-ccbc-c71e-15c9299f5d9b.htm" />
+  <HelpKINode Title="SandcastleTest.Generic.DAL.FileSystemStorage.CustomerAccess class" Url="html/f9bf04a0-9eaa-8366-d929-d5814c9b97cd.htm" />
+  <HelpKINode Title="SandcastleTest.Generic.DAL.FileSystemStorage.ICollectionExtension class" Url="html/749bfb75-0194-ad83-e8e9-3d1300ad8ccd.htm" />
+  <HelpKINode Title="SandcastleTest.Generic.DAL.FileSystemStorage.OrderAccess class" Url="html/68ed41e2-364f-1826-f643-3d6d38dc3c99.htm" />
+  <HelpKINode Title="SandcastleTest.Generic.DAL.ICreateReadUpdateDelete(Of T) interface" Url="html/c70240b8-b325-ea8b-d673-7098d376b33b.htm" />
+  <HelpKINode Title="SandcastleTest.Generic.DAL.ICreateReadUpdateDelete&lt;T&gt; interface" Url="html/c70240b8-b325-ea8b-d673-7098d376b33b.htm" />
+  <HelpKINode Title="SandcastleTest.Generic.POCO namespace" Url="html/417f59c1-282f-4fa0-2e13-ee651855c57e.htm" />
+  <HelpKINode Title="SandcastleTest.Generic.POCO.Article class" Url="html/29cb7498-25e7-a0de-6279-24ac12688681.htm" />
+  <HelpKINode Title="SandcastleTest.Generic.POCO.Customer class" Url="html/7696b3d3-c681-f48b-bda3-db48fcaecb00.htm" />
+  <HelpKINode Title="SandcastleTest.Generic.POCO.Order class" Url="html/1adfa61c-e1ff-a3b3-f157-e30083670091.htm" />
+  <HelpKINode Title="SandcastleTest.Generic.POCO.OrderItem class" Url="html/1323955d-fcbf-f361-c563-393df7ba45fe.htm" />
+  <HelpKINode Title="SandcastleTest.Generic.POCO.Person class" Url="html/cc5624ed-c08d-ab34-c42e-4b97de71fa4c.htm" />
+  <HelpKINode Title="SandcastleTest.Generic.POCO.PocoBase class" Url="html/13bfd19d-c97e-6529-9f9a-30c4a00fa80e.htm" />
+  <HelpKINode Title="SandcastleTest.Generic.POCO.PocoBaseEqualityComparer class" Url="html/7e3473d7-012c-62ab-c2ca-6325b5cfb706.htm" />
+  <HelpKINode Title="Store method" Url="html/8b694d97-1d74-dfe8-3173-8583373fbf63.htm" />
+  <HelpKINode Title="Title property" Url="html/8a1d2208-a679-8d1f-33d5-7843d4f4da9a.htm" />
+  <HelpKINode Title="ToString method">
+    <HelpKINode Title="Customer.ToString Method " Url="html/1869ff28-4bd4-a5e8-db2c-ab8e889eea3a.htm" />
+    <HelpKINode Title="Document.ToString Method " Url="html/e9f03f17-a161-7324-b15e-9bc7738ac2a8.htm" />
+    <HelpKINode Title="Person.ToString Method " Url="html/84e8b33d-ca7d-a4df-0842-df456b8736f6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Update method">
+    <HelpKINode Title="Crud(T).Update Method " Url="html/41c595a0-bd6b-60ea-437c-2a4614b4b8b5.htm" />
+    <HelpKINode Title="ICreateReadUpdateDelete(T).Update Method " Url="html/1ec156a6-b54a-325a-c558-132b6d942d48.htm" />
+  </HelpKINode>
+</HelpKI>

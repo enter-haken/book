@@ -1,0 +1,15 @@
+use Mix.Config
+
+config :book,
+ content_path: "priv/content",
+ generator_path: "priv/generated",
+ static_path: "priv/static",
+ style_path: "priv/styles",
+ draft: true,
+ port: 4040 
+
+config :logger, :console,
+  format: "$time $metadata[$level] $levelpad$message\n"
+
+import_config "config.#{Mix.env()}.exs"
+

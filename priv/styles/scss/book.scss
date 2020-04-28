@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+$pre-padding: 0em !default;
+$content-pre-padding: 0em !default;
+
+@import "./node_modules/bulma/bulma.sass";
+
+@mixin headers {
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+}
+
+.content {
+  @include headers;
+}
+
+.card {
+  @include headers;
+}
