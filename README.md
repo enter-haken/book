@@ -1,6 +1,6 @@
 # book 
 
-These are the sources for [hake.one][1] 
+These are the sources for [hake.one][1]
 
 ## requirements
 
@@ -70,4 +70,4 @@ The site will be available at `http://localhost:4040`
 Jan Frederik Hake, <jan_hake@gmx.de>. [@enter_haken](https://twitter.com/enter_haken) on Twitter.
 
 
-1: https://hake.one
+[1]: https://hake.one
