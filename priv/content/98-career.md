@@ -3,14 +3,13 @@
 ```tag-cloud
 Experienced in
 IOT
-Elixir
 Erlang
+Elixir
 Phoenix Framework 
 99s Cowboy
-Elixir 
-Plug 
-Haskell 
+Elixir Plug 
 Python 
+Haskell 
 JavaScript 
 TypeScript 
 Karma 
@@ -49,7 +48,7 @@ F-Sharp
 VB.NET 
 XAML 
 Telerik 
-Visual Studio 2003-2015 
+Visual Studio 2003-2019
 MS SQL Server 2000-2012 
 T-SQL 
 MongoDb 
@@ -61,6 +60,7 @@ Jira
 Confluence 
 Jenkins 
 AWS 
+Azure
 Terraform 
 ```
 

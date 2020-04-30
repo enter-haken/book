@@ -1,3 +1,8 @@
+NAME := hake/book
+TAG := $$(git log -1 --pretty=%H)
+IMG := ${NAME}:${TAG}
+LATEST := ${NAME}:latest
+
 .PHONY: default
 default: build
 
@@ -50,7 +55,8 @@ release: build
 
 .PHONY: docker
 docker: 
-	docker build -t book .
+	docker build -t ${IMG} .
+	docker tag ${IMG} ${LATEST}
 
 .PHONY: docker_run
 docker_run:
@@ -58,20 +64,20 @@ docker_run:
 		-p 5051:4050 \
 		--name book \
 		-d \
-		-t book 
+		-t ${LATEST} 
 
 .PHONY: update
-update:
+update: docker
 	docker stop book
-	docker rm book
-	docker rmi book
-	make docker docker_run
+	docker rm book 
+	make docker_run
 
 .PHONY: ignore
 ignore:
 	find deps/ > .ignore || true
 	find doc/ >> .ignore || true
 	find _build/ >> .ignore || true
+:qa!
 	find priv/styles/node_modules/ >> .ignore || true
 	find priv/styles/css/ >> .ignore || true
 	find priv/generated/ >> .ignore || true
