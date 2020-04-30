@@ -48,8 +48,8 @@ F-Sharp
 VB.NET 
 XAML 
 Telerik 
-Visual Studio 2003-2019
-MS SQL Server 2000-2012 
+Visual Studio
+MS SQL Server
 T-SQL 
 MongoDb 
 Git 
