@@ -9,7 +9,9 @@
     <link rel="stylesheet"
           href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/styles/default.min.css">
 
-    <script data-ad-client="ca-pub-1392944260213839" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <%= if Application.get_env(:book, :show_adds) do %>
+      <script data-ad-client="ca-pub-1392944260213839" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <% end %>
     <title>craftsmanship - <%= title %></title>
   </head>
   <body>

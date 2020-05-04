@@ -12,8 +12,7 @@ I have been working on / with
 * [brownfield](http://en.wikipedia.org/wiki/Brownfield_(software_development)) projects / products
 * document based database systems with millions of documents and terabytes in size
 
-This is my personal blog, where I write about programming, infrastructure and own ideas.
-I start with some simple pages and let this blog grow as needed.
+This is my personal digital space, where I write about programming, infrastructure and own ideas.
 
 You can contact me via <jan_hake@gmx.de>, [xing](https://www.xing.com/profile/JanFrederik_Hake), [github](https://github.com/enter-haken) or [twitter](https://www.twitter.com/enter_haken)
 
@@ -47,4 +46,3 @@ Bergstraße 39
 ## Liability for links
 
 My web site contains links to third party websites. I can't give guarantees for the content of this external source. The respective provider or operator of the pages is always responsible for the contents of the linked pages. The linked pages were checked for possible legal violations at the time of linking. If I become aware of any legal infringements, I will immediately remove such links.
-
