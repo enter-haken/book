@@ -3,12 +3,14 @@ defmodule Book.Generator.Link do
           url: String.t(),
           title: String.t(),
           generator_path: String.t(),
+          content_path: String.t(),
           is_active: boolean()
         }
 
   defstruct url: nil,
             title: nil,
             generator_path: nil,
+            content_path: nil,
             is_active: false
 
   def get_by_content_path(content_path) do
@@ -39,6 +41,7 @@ defmodule Book.Generator.Link do
 
     %__MODULE__{
       generator_path: content_path |> get_generator_path(),
+      content_path: content_path,
       url: url,
       title: title
     }

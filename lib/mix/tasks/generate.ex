@@ -2,6 +2,7 @@ defmodule Mix.Tasks.Book.Generate do
   use Mix.Task
 
   alias Book.Generator.Site
+  alias Book.Generator.Link
 
   import Book.Helper
 
@@ -15,13 +16,15 @@ defmodule Mix.Tasks.Book.Generate do
     sites = Site.get_sites()
 
     sites
-    |> Enum.each(fn %Site{generator_path: generator_path, page: page} ->
+    |> Enum.each(fn %Site{generator_path: generator_path, page: page} = site ->
+      site
+      |> verbose()
+
       generator_path
       |> Path.dirname()
       |> File.mkdir_p!()
 
       File.write!(generator_path, page)
-      #File.write!(generator_path <> ".gz", :zlib.gzip(page))
     end)
 
     static_path = Application.get_env(:book, :static_path)
@@ -33,4 +36,28 @@ defmodule Mix.Tasks.Book.Generate do
     Logger.info("copying css styles...")
     "cp #{style_path}/css/book.css #{generator_path}" |> bash()
   end
+
+  defp verbose(
+         %Site{
+           generator_path: generator_path,
+           link: link,
+           title: title,
+           menu: menu,
+           breadcrumb: breadcrumb
+         } = site
+       ) do
+    Logger.debug("Generating #{title} in #{generator_path}")
+    Logger.debug("Link for generated file: #{verbose(link)}")
+
+    breadcrumb
+    |> Enum.each(fn x -> Logger.debug("Breadcrumb: \"#{title}\": #{verbose(x)}") end)
+
+    menu
+    |> Enum.each(fn x -> Logger.debug("Menu link: \"#{title}\": #{verbose(x)}") end)
+
+    site
+  end
+
+  defp verbose(%Link{url: url, title: title, content_path: content_path}),
+    do: "#{url}: #{title} (origin: #{content_path})"
 end
