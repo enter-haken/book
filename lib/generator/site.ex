@@ -29,7 +29,8 @@ defmodule Book.Generator.Site do
           html_from_markdown: String.t(),
           teaser: String.t(),
           teasers: [map()],
-          page: String.t()
+          page: String.t(),
+          title: String.t()
         }
 
   defstruct link: nil,
@@ -42,7 +43,8 @@ defmodule Book.Generator.Site do
             html_from_markdown: nil,
             teaser: nil,
             teasers: nil,
-            page: nil
+            page: nil,
+            title: nil
 
   def get_sites() do
     Path.join([Application.get_env(:book, :content_path), "/**/*.md"])
@@ -96,29 +98,25 @@ defmodule Book.Generator.Site do
         breadcrumb: breadcrumb,
         html_from_markdown: html_from_markdown,
         ast: ast,
+        menu: menu,
+        title: title,
         teaser:
-          case ast
+          case raw_ast 
                |> Enum.any?(fn x ->
                  x == @teaser_marker
                end) do
             true ->
-              ast
+              raw_ast 
               |> Enum.take_while(fn x -> x != @teaser_marker end)
+              |> Markdown.rewrite!(:with_first_heading)
 
             _ ->
               []
           end
           |> Earmark.Transform.transform(),
-        markdown: markdown,
-        page:
-          EEx.eval_file("lib/template/default.eex",
-            body: html_from_markdown,
-            bread_crumps: breadcrumb,
-            menu: menu,
-            title: title,
-            teasers: nil
-          )
+        markdown: markdown
       }
+      |> populate()
     end
   end
 
@@ -140,10 +138,6 @@ defmodule Book.Generator.Site do
 
         menu = Menu.get_links(x)
 
-        if menu |> Enum.any?(fn %Link{generator_path: path} -> String.contains?(path, "blog") end) do
-          IO.puts("debug: #{inspect(menu, pretty: true)}")
-        end
-
         menu_sites =
           menu
           |> Enum.map(fn menu_link ->
@@ -160,33 +154,14 @@ defmodule Book.Generator.Site do
              end) do
           true ->
             Logger.info("at least one site contains a teaser...")
-
-            [%Site{generator_path: generator_path, breadcrumb: breadcrumb} | _rest] = menu_sites
-
-            generated_bread_crumb = breadcrumb |> Enum.drop(-1)
-
-            [link] = generated_bread_crumb |> Enum.take(-1)
-
-            first_site_generator_path =
-              Path.join([generator_path |> Path.dirname(), "first.html"])
-
-            Logger.info("generating chapter overview from teasers.")
+            [%Site{generator_path: generator_path} = first_chapter_site | _rest] = menu_sites
 
             %Site{
-              # link: %Link{link | generator_path: first_site_generator_path},
-              link: %Link{link | is_active: true},
-              order_nr: 0,
-              generator_path: first_site_generator_path,
-              breadcrumb: generated_bread_crumb,
-              page:
-                EEx.eval_file("lib/template/default.eex",
-                  body: nil,
-                  bread_crumps: generated_bread_crumb,
-                  menu: menu,
-                  title: "introduction",
-                  teasers: get_teasers(menu_sites)
-                )
+              first_chapter_site
+              | generator_path: Path.join([generator_path |> Path.dirname(), "first.html"]),
+                teasers: get_teasers(menu_sites)
             }
+            |> populate()
 
           _ ->
             Logger.info("no teaser found. Set up first page for overview")
@@ -202,8 +177,33 @@ defmodule Book.Generator.Site do
     sites ++ chapter_sites
   end
 
+  defp populate(
+         %Site{
+           html_from_markdown: html_from_markdown,
+           breadcrumb: breadcrumb,
+           menu: menu,
+           title: title,
+           teasers: teasers
+         } = site
+       ) do
+    %Site{
+      site
+      | page:
+          EEx.eval_file("lib/template/default.eex",
+            body: html_from_markdown,
+            bread_crumps: breadcrumb,
+            menu: menu,
+            title: title,
+            teasers: teasers
+          )
+    }
+  end
+
   defp get_teasers(menu_sites) do
     menu_sites
+    |> Enum.filter(fn %Site{teaser: teaser} ->
+      teaser != ""
+    end)
     |> Enum.map(fn %Site{teaser: teaser, link: %Link{url: url}} ->
       %{
         teaser: teaser,

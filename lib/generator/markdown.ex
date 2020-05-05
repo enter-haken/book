@@ -19,6 +19,12 @@ defmodule Book.Generator.Markdown do
     {:ok, result}
   end
 
+  def rewrite!(ast, :with_first_heading),
+    do:
+      ast
+      |> Enum.map(&walk/1)
+      |> Enum.filter(fn row -> !is_nil(row) end)
+
   defp walk(
          {"pre", [],
           [

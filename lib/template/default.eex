@@ -54,15 +54,17 @@
             / <a href="<%= url %>"><%= title %></a>
           <% end %>
         </div>
+      </div>
 
-        <%= if !is_nil(body) do %>
-          <div class="colums">
-            <div class="column is-10 is-offset-1 content">
-              <%= body %>
-            </div>
+      <%= if !is_nil(body) do %>
+        <div class="colums">
+          <div class="column is-10 is-offset-1 content">
+            <%= body %>
           </div>
-        <% end %>
-        <%= if !is_nil(teasers) do %>
+        </div>
+      <% end %>
+      <%= if !is_nil(teasers) do %>
+        <div class="colums">
           <div class="column is-10 is-offset-1 content">
             <%= for %{teaser: teaser, url: url} <- teasers do %>
               <%= teaser %>
@@ -71,8 +73,8 @@
               </p>
             <% end %>
           </div>
-        <% end %>
-      </div>
+        </div>
+      <% end %>
     </section>
 
     <footer class="footer is-primary">
