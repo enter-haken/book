@@ -1,4 +1,4 @@
-# introduction
+# vim 
 
 You can find `vim` on almost every system out there.
 Over the last decades a wide ecosystem has emerged.

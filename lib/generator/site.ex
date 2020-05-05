@@ -122,8 +122,8 @@ defmodule Book.Generator.Site do
 
   defp get_chapter_sites(sites) do
     chapter_sites =
-      Path.join([Application.get_env(:book, :content_path), "/**/title"])
-      |> Path.wildcard()
+      Breadcrumb.all_first_files_in_chapter()
+      |> Enum.map(fn %Breadcrumb{content_path: content_path} -> content_path end)
       |> Enum.filter(fn x ->
         case Application.get_env(:book, :draft) do
           true ->
@@ -154,27 +154,29 @@ defmodule Book.Generator.Site do
              end) do
           true ->
             Logger.info("at least one site contains a teaser...")
-            [%Site{generator_path: generator_path} = first_chapter_site | _rest] = menu_sites
+            [first_chapter_site | _rest] = menu_sites
 
             %Site{
               first_chapter_site
-              | generator_path: Path.join([generator_path |> Path.dirname(), "first.html"]),
-                teasers: get_teasers(menu_sites)
+              | teasers: get_teasers(menu_sites)
             }
             |> populate()
 
           _ ->
             Logger.info("no teaser found. Set up first page for overview")
-            [%Site{generator_path: generator_path} = first_chapter_site | _rest] = menu_sites
-
-            %Site{
-              first_chapter_site
-              | generator_path: Path.join([generator_path |> Path.dirname(), "first.html"])
-            }
+            nil
         end
       end)
+      |> Enum.filter(fn x -> is_nil(x) == false end)
 
-    sites ++ chapter_sites
+    sites
+    |> Enum.filter(fn %Site{generator_path: generator_path} ->
+      chapter_sites
+      |> Enum.any?(fn %Site{generator_path: chapter_generator_path} ->
+        generator_path != chapter_generator_path
+      end)
+    end)
+    |> Kernel.++(chapter_sites)
   end
 
   defp populate(

@@ -39,7 +39,7 @@ defmodule Book.Generator.Menu do
            type: :directory
          }} ->
           %Breadcrumb{link: link} =
-            Breadcrumb.get_all_possible_breadcrumbs()
+            Breadcrumb.all_first_files_in_chapter()
             |> Enum.find(fn %Breadcrumb{content_path: candidate} ->
               full_path == candidate |> Path.dirname()
             end)

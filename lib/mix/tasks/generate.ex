@@ -50,10 +50,10 @@ defmodule Mix.Tasks.Book.Generate do
     Logger.debug("Link for generated file: #{verbose(link)}")
 
     breadcrumb
-    |> Enum.each(fn x -> Logger.debug("Breadcrumb: \"#{title}\": #{verbose(x)}") end)
+    |> Enum.each(fn x -> Logger.debug("Breadcrumb: #{verbose(x)}") end)
 
     menu
-    |> Enum.each(fn x -> Logger.debug("Menu link: \"#{title}\": #{verbose(x)}") end)
+    |> Enum.each(fn x -> Logger.debug("Menu link: #{verbose(x)}") end)
 
     site
   end

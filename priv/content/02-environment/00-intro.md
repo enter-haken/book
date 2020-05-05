@@ -1,4 +1,4 @@
-# introduction 
+# environment 
 
 Before you start creating software, you need a solid working environment.
 Nowadays many of the software out there is running on linux based systems.
