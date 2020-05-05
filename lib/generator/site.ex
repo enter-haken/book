@@ -203,6 +203,14 @@ defmodule Book.Generator.Site do
 
   defp get_teasers(menu_sites) do
     menu_sites
+    |> Enum.filter(fn %Site{generator_path: generator_path} ->
+      !String.contains?(generator_path, "blog")
+    end)
+    |> Enum.each(fn %Site{generator_path: generator_path, teaser: teaser} ->
+      Logger.info("#{generator_path}: teaser: #{teaser}")
+    end)
+
+    menu_sites
     |> Enum.drop(1)
     |> Enum.filter(fn %Site{teaser: teaser} ->
       teaser != ""

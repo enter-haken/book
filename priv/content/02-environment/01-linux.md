@@ -5,6 +5,8 @@ If you want to install linux, you can [choose a distribution][distrowatch], whic
 So I will focus on the commands, which are most commonly present on every installation, or which can be easily installed by a package manager.
 This will lead to a distribution independent environment.
 
+<!--more-->
+
 ## Filesystem Hierarchy Standard
 
 Almost everything on a linux system can be accessed via a file. 

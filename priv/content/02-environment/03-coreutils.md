@@ -4,6 +4,8 @@ The [GNU coreutils][coreutils] consists of a set of commands, which can be found
 You may not need all of the commands, but some of them are used on a daily basis.
 Within the shell you can combine them to get your work done.
 
+<!--more-->
+
 ##  Essential user command binaries 
 
 ### /bin/echo
