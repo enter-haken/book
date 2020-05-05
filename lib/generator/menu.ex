@@ -2,7 +2,6 @@ defmodule Book.Generator.Menu do
   alias Book.Generator.Link
   alias Book.Generator.Breadcrumb
 
-  # Application.get_env(:book, :content_path)
   def get_links(content_path) do
     File.ls!(content_path |> Path.dirname())
     |> Enum.filter(fn file ->

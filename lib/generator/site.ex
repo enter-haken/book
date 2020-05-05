@@ -101,12 +101,12 @@ defmodule Book.Generator.Site do
         menu: menu,
         title: title,
         teaser:
-          case raw_ast 
+          case raw_ast
                |> Enum.any?(fn x ->
                  x == @teaser_marker
                end) do
             true ->
-              raw_ast 
+              raw_ast
               |> Enum.take_while(fn x -> x != @teaser_marker end)
               |> Markdown.rewrite!(:with_first_heading)
 
@@ -201,6 +201,7 @@ defmodule Book.Generator.Site do
 
   defp get_teasers(menu_sites) do
     menu_sites
+    |> Enum.drop(1)
     |> Enum.filter(fn %Site{teaser: teaser} ->
       teaser != ""
     end)

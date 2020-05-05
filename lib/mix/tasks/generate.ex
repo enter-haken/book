@@ -21,7 +21,7 @@ defmodule Mix.Tasks.Book.Generate do
       |> File.mkdir_p!()
 
       File.write!(generator_path, page)
-      File.write!(generator_path <> ".gz", :zlib.gzip(page))
+      #File.write!(generator_path <> ".gz", :zlib.gzip(page))
     end)
 
     static_path = Application.get_env(:book, :static_path)
