@@ -1,3 +1,3 @@
-# introduction
+# scripting 
 
 * when do scripting?

@@ -1,3 +1,3 @@
-# introduction
+# bootstrapping 
 
 * create some application templates
