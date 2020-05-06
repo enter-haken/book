@@ -108,7 +108,6 @@ For a first try, the "on the fly" images are good start, but you can also build 
 These images are described with a [Dockerfile][dockerfile].
 
 
-
 [dockerhub]: https://hub.docker.com/
 [fargate]: https://aws.amazon.com/fargate/
 [dockerps]: https://docs.docker.com/engine/reference/commandline/ps/

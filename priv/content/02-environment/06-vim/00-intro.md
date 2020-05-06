@@ -1,6 +1,8 @@
 # vim 
 
 The heart of every developers toolchain is the editor.
+As your editor is the heart of your environment, you should be aware about its capabilities.
+
 You can choose, what ever you like. 
 When you are developing a java or .net based system, you may be better of using a full blown IDE.
 But this is not neccessary every time.
