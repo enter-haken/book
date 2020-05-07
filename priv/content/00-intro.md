@@ -1,6 +1,6 @@
 # introduction
 
-My name is Jan Frderik Hake.
+My name is Jan Frederik Hake.
 I am a software developer from Dortmund, Germany.
 This is my view of how software development craftsmanship should be.
 
