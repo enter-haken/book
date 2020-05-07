@@ -6,8 +6,7 @@ config :book,
   static_path: "priv/static",
   style_path: "priv/styles",
   draft: true,
-  port: 4040,
-  show_adds: false
+  port: 4040
 
 config :logger, :console,
   format: "$time $metadata[$level] $levelpad$message\n",

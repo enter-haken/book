@@ -1,6 +1,6 @@
 defmodule Book.Web.Plug.Bakery.Fetch do
   defmacro get_files() do
-    static_files = Path.wildcard("priv/generated/**/*.{css,ico,html,htm,txt,json,png,jpg,gif,gz}")
+    static_files = Path.wildcard("priv/generated/**/*.{css,ico,html,htm,txt,json,png,jpg,gif}")
 
     static =
       static_files
