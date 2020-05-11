@@ -1,8 +1,11 @@
 # blog
 
-I moved my blog from github to my personal server.
+Every project starts with an idea.
+I use my blog for thinking out loud.
+Some of the ideas ends up with an article series.
 
-You can take a look at the old one at [enter-haken.github.io][1].
+I startet my blog on [enter-haken.github.io][1].
+New content will be added on this page.
 
 <!--more-->
 
