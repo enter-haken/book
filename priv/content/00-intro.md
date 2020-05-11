@@ -7,8 +7,13 @@ This is my view of how software development craftsmanship should be.
 As this is a living document, it will grow and shrink with time. 
 
 <!--
-This is a quick overview, what is needed to develop a web application. 
--->
+# projects
+
+![retro](/images/retro.png)
+
+
+![frank](/images/frank.png)
+  -->
 
 
 <!--

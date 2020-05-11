@@ -225,7 +225,16 @@ For example, if you want to delete all zombie processes on a system you can do s
 
 ```bash
 $ kill $(ps -A -ostat,ppid | awk '/[zZ]/ && !a[$2]++ {print $2}')
+
 ```
+
+# imagemagick 
+
+| distribution | package name            |
+| ------------ | ----------------------- |
+| ubuntu       | `imagemagick            |
+| gentoo       | `media-gfx/imagemagick  |
+
 
 # broot
 
