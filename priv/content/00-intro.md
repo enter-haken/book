@@ -8,6 +8,9 @@ As this is a living document, it will grow and shrink with time.
 
 # projects
 
+Let's start with the begining first. 
+This is a list of software, which you can actually run either online, or on your machine. 
+
 ## retro
 
 When the Covid19 pandemy started, we went to homeoffice. 
@@ -33,12 +36,14 @@ So what is frank?
 
 ![frank](/images/frank_start.png)
 
-Frank is no replacement for `github` or `gitlab`. 
+Frank is **no replacement** for `github` or `gitlab`. 
 At the time of writing it is a frontend for [git grep][2]. 
 
 I wanted to have a tool where you easily search repositories. 
 
 You can take a look at my instance of [frank][3], or take a look at the [code][4].
+
+This project is still in **alpha state**.
 
 # the rest
 
