@@ -25,6 +25,10 @@ defmodule Book.Generator.Markdown do
       |> Enum.map(&walk/1)
       |> Enum.filter(fn row -> !is_nil(row) end)
 
+  defp walk({"p", [], [{"img", attributes, []}]}) do
+    {"p", [{"style", "text-align:center"}], [{"img", attributes, []}]}
+  end
+
   defp walk(
          {"pre", [],
           [
@@ -33,7 +37,7 @@ defmodule Book.Generator.Markdown do
        ) do
     {image, 0} = "echo '#{source}' | dot -Tpng" |> bash()
 
-    {"p", [],
+    {"p", [{"style", "text-align:center"}],
      [
        {"img",
         [

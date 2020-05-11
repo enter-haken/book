@@ -6,15 +6,43 @@ This is my view of how software development craftsmanship should be.
 
 As this is a living document, it will grow and shrink with time. 
 
-<!--
 # projects
 
-![retro](/images/retro.png)
+## retro
 
+When the Covid19 pandemy started, we went to homeoffice. 
+As I am working for a small company, there was no huge step to work from home. 
+The vpn was in place before, and it has been working quite well.
 
-![frank](/images/frank.png)
-  -->
+When it comes to the scrum process, we tried different solutions for our retrospective. 
+All of them required a kind of loggin and had a lot of feature, where we needed only a fraction of this. 
+So I give it a try and try to [build something for my own][1].
 
+![retro](/images/retro_start.png)
+
+It was quiet a lot of fun, and I have a new playground for `angular` and `elixir`.
+There is no need for a personalized loggin.
+Every retro session is only kept within memory.
+
+## frank
+
+I think, `github` is one of the best plattforms, created in the last decades.
+It has brought more freedom and diversity to the software landscape out there. 
+
+So what is frank?
+
+![frank](/images/frank_start.png)
+
+Frank is no replacement for `github` or `gitlab`. 
+At the time of writing it is a frontend for [git grep][2]. 
+
+I wanted to have a tool where you easily search repositories. 
+
+You can take a look at my instance of [frank][3], or take a look at the [code][4].
+
+# the rest
+
+If the projects are the result of my doing, the next parts shows the road to it.
 
 <!--
 ## develop
@@ -47,3 +75,7 @@ You have to ask yourself, if you like to run your application on [bare metal](/r
 But if you have a more complex application you might need something like [infrastructure as code](/run/infrastructureascode.html).
 -->
 
+[1]: https://retro.hake.one
+[2]: https://git-scm.com/docs/git-grep
+[3]: https://frank.hake.one
+[4]: https://github.com/enter-haken/frank
