@@ -15,13 +15,13 @@ As I am working for a small company, there was no huge step to work from home.
 The vpn was in place before, and it has been working quite well.
 
 When it comes to the scrum process, we tried different solutions for our retrospective. 
-All of them required a kind of loggin and had a lot of feature, where we needed only a fraction of this. 
+All of them required a kind of login and had a lot of feature, where we needed only a fraction of this. 
 So I give it a try and try to [build something for my own][1].
 
 ![retro](/images/retro_start.png)
 
 It was quiet a lot of fun, and I have a new playground for `angular` and `elixir`.
-There is no need for a personalized loggin.
+There is no need for a personalized login.
 Every retro session is only kept within memory.
 
 ## frank

@@ -79,8 +79,8 @@
         created by Jan Frederik Hake |
         <!--<a href="https://enter-haken.github.io/atom.xml">atom feed</a> |-->
         <a href="/about.html">about</a> |
-        <a href="https://retro.hake.one"><img style="vertical-align:middle;" src="images/retro_small.png" alt="frank"/> retro</a> |
-        <a href="https://frank.hake.one"><img style="vertical-align:middle;" src="images/frank_small.png" alt="frank"/> frank</a> |
+        <a href="https://retro.hake.one"><img style="vertical-align:middle;" src="/images/retro_small.png" alt="frank"/> retro</a> |
+        <a href="https://frank.hake.one"><img style="vertical-align:middle;" src="/images/frank_small.png" alt="frank"/> frank</a> |
         <a href="https://github.com/enter-haken/book">github</a> |
         the source code on this site is covered by a <a href="/license.html">MIT license</a> |
         content licenced with <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>
