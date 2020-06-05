@@ -1,4 +1,13 @@
 # work experience
+
+I am working as a professional developer since 2009.
+During the last years, I got in touch with a lot of different technolgies. 
+
+You can take a look at my recent projects, I was working on.
+
+<!--more-->
+
+
 <!--first element will be displayed as card title -->
 ```tag-cloud
 Experienced in
