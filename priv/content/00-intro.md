@@ -8,7 +8,7 @@ As this is a living document, it will grow and shrink with time.
 
 # projects
 
-Let's start with the begining first. 
+Let's start with the result first. 
 This is a list of software, which you can actually run either online, or on your machine. 
 
 ## retro
