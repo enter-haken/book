@@ -14,8 +14,8 @@ Since I am a German citizen, I am obligated to make disclosures pursuant to §5 
 
 ```nohighlight
 Jan Frederik Hake
-Bergstraße 39
-44339 Dortmund
+Benhauser Straße 36
+33100 Paderborn
 ```
 
 ## Contact
@@ -29,8 +29,8 @@ E-Mail: jan_hake@gmx.de
 
 ```nohighlight
 Jan Frederik Hake
-Bergstraße 39
-44339 Dortmund
+Benhauser Straße 36
+33100 Paderborn
 ```
 
 ## Liability for links
