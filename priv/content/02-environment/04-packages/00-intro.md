@@ -7,65 +7,6 @@ Beyond the base commands, there are some packages, that might become handy durin
 
 <!--more-->
 
-## man
-
-Almost every command on a linux system have so called man pages. 
-Usually all possible command parameters are listed within this page.
-
-You can simply call it with
-
-```bash
-$ man command_name
-```
-
-| distribution  | package name      |
-| ------------- | ----------------- |
-| ubuntu        | `man_db`          |
-| gentoo        | `sys-apps/man-db` |
-
-## cURL 
-
-* example api call
-
-| distribution | package name    |
-| ------------ | --------------- |
-| ubuntu       | `curl`          |
-| gentoo       | `net-misc/curl` |
-
-## ranger
-
-| distribution | package name      |
-| ------------ | ----------------- |
-| ubuntu       | `ranger`          |
-| gentoo       | `app-misc/ranger` |
-
-## grep
-
-| distribution | package name    |
-| ------------ | --------------- |
-| ubuntu       | `grep`          |
-| gentoo       | `sys-apps/grep` |
-
-## ag
-
-| distribution | package name                   |
-| ------------ | ------------------------------ |
-| ubuntu       | `silversearcher-ag`            |
-| gentoo       | `sys-apps/the_silver_searcher` |
-
-## sed
-
-| distribution | package name   |
-| ------------ | -------------- |
-| ubuntu       | `sed`          |
-| gentoo       | `sys-apps/sed` |
-
-Trim leading spaces from output
-
-```
-sed -e 's/^[[:space:]]*//'
-```
-
 ## awk
 
 | distribution | package name    |
