@@ -1,5 +1,9 @@
 # evince
 
+A pdf viewer
+
+<!--more-->
+
 | distribution | package name      |
 | ------------ | ----------------- |
 | ubuntu       | `evince`          |

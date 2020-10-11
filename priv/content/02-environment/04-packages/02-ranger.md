@@ -3,11 +3,11 @@
 [ranger][1] helps you navigating through the filesystem. 
 With VIM bindings on board, it is a very fast tool.
 
-<!--more-->
-
 You can find the configuration at `./.config/ranger/`
 
 There are some config values for the `rc.conf`, you might want to set.
+
+<!--more-->
 
 ## config
 

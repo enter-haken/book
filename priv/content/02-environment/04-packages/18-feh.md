@@ -1,5 +1,9 @@
 # feh
 
+a image viewer
+
+<!--more-->
+
 | distribution | package name    |
 | ------------ | --------------- |
 | ubuntu       | `feh`           |

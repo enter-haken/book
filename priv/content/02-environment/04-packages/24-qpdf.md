@@ -1,5 +1,9 @@
 # qpdf 
 
+A tool for working with pdf files.
+
+<!--more-->
+
 With this package, you can extract pages from a given pdf file.
 
 ```bash

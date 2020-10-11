@@ -1,5 +1,9 @@
 # tmux 
 
+A terminal multiplexer.
+
+<!--more-->
+
 use mouse witin tmux
 ```
 setw -g mouse on
