@@ -4,7 +4,18 @@ Hi, my name is Jan Frederik Hake. I am a software developer from Paderborn / Ger
 
 This is my personal digital space, where I write about programming, infrastructure and own ideas.
 
-You can contact me via <jan_hake@gmx.de>, [xing](https://www.xing.com/profile/JanFrederik_Hake), [github](https://github.com/enter-haken) or [twitter](https://www.twitter.com/enter_haken)
+# Send me a message
+
+* <jan_hake@gmx.de> 
+* [xing](https://www.xing.com/profile/JanFrederik_Hake)
+* [github](https://github.com/enter-haken) 
+* [twitter](https://www.twitter.com/enter_haken)
+
+## Chat with me via
+
+* [@enter-haken](https://matrix.to/#/@enter-haken:matrix.org) on matrix
+* [enter-haken#7260](https://discord.com) on discord
+* [enter_enter](https://wire.com) on wire
 
 # Disclosures pursuant to §5 TMG (German law).
 

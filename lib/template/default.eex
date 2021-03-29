@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="/book.css">
     <link rel="stylesheet"
           href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/styles/default.min.css">
-
     <title>craftsmanship - <%= title %></title>
   </head>
   <body>
@@ -23,11 +22,6 @@
           </h1>
           <h2 class="subtitle">
             software development craftsmanship
-          </h2>
-          <h2 class="subtitle">
-            <strong>
-              <a href="https://twitter.com/search?q=%23BlackLivesMatter">#BlackLivesMatter</a>
-            </strong>
           </h2>
         </div>
       </div>
