@@ -7,70 +7,74 @@ You can take a look at my recent projects, I was working on.
 
 <!--more-->
 
-
 <!--first element will be displayed as card title -->
 ```tag-cloud
 Experienced in
-IOT
-Erlang
+IoT
 Elixir
-Phoenix Framework 
-99s Cowboy
-Elixir Plug 
-Python 
-Haskell 
-JavaScript 
-TypeScript 
-Karma 
-Jasmine 
-Node.js 
-Gulp 
-Webpack 
-CSS 
-Bulma (CSS) 
-Bootstrap (CSS) 
-LESS 
-SASS 
-Material-UI 
-Angular 
-Kendo UI 
-Ionic 
-React 
-Vue.js 
-ExtJS 
-PostgreSQL 
-pl/pgSQL 
-pl/python 
-Linux 
-Gentoo Linux 
-Ubuntu 
-Makefile 
-Bash 
-Vim 
-Docker 
-VirtualBox 
-Vagrant 
-QEMU 
-.NET Framework 
-C# 
-F-Sharp 
-VB.NET 
-XAML 
-Telerik 
-Visual Studio
+Erlang
+OTP
+RabbitMQ
+Elixir Plug
+Phoenix Framework
+Phoenix LiveView
+Python
+PostgreSQL
+pl/pgSQL
+pl/python
+MySQL
 MS SQL Server
-T-SQL 
-MongoDb 
-Git 
-XML(DOM/SAX) 
-XSD 
-XSLT 
-Jira 
-Confluence 
-Jenkins 
-AWS 
-Azure
-Terraform 
+T-SQL
+MongoDb
+Linux
+Gentoo Linux
+Ubuntu
+Vim
+Bash
+Docker
+VirtualBox
+Vagrant
+QEMU
+AWS
+Microsoft Azure
+Hetzner
+Terraform
+Jenkins
+Git
+GitLab
+Jira
+Confluence
+XML
+XSD
+XSLT
+JavaScript
+TypeScript
+Karma
+Jasmine
+Node.js
+Gulp
+Webpack
+CSS
+Bulma (CSS)
+Tailwind CSS
+Bootstrap (CSS)
+PostCSS
+LESS
+SASS
+Material-UI
+Angular
+Kendo UI (jQuery / MVC / Angular)
+Telerik
+Ionic
+React
+Vue.js
+ExtJS
+.NET Framework
+C#
+F-Sharp
+VB.NET
+XAML
+Visual Studio
 ```
 
 <!--
