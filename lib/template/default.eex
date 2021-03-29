@@ -33,19 +33,16 @@
       </div>
       <div class="hero-foot">
         <nav class="tabs is-boxed is-fullwidth">
-          <div class="container">
-            <ul>
-              <%= for %{url: url, title: title, is_active: is_active} <- menu do %>
-                <%= if is_active do %>
-                  <li class="is-active"><a href="<%= url %>"> <%= title %></a></li>
-                <% else %>
-                  <li><a href="<%= url %>"> <%= title %></a></li>
-                <% end %>
+          <ul>
+            <%= for %{url: url, title: title, is_active: is_active} <- menu do %>
+              <%= if is_active do %>
+                <li class="is-active has-text-link"><strong><a href="<%= url %>"> <%= title %></a></strong></li>
+              <% else %>
+                <li><a href="<%= url %>"> <%= title %></a></li>
               <% end %>
-            </ul>
-          </div>
+            <% end %>
+          </ul>
         </nav>
-
       </div>
     </section>
     <section class="section">
