@@ -4,7 +4,7 @@ defmodule Book.MixProject do
   def project do
     [
       app: :book,
-      version: "0.1.0",
+      version: File.read!("VERSION") |> String.trim(),
       elixir: "~> 1.10",
       start_permanent: Mix.env() == :prod,
       deps: deps()

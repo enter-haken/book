@@ -1,7 +1,8 @@
-NAME := hake/book
-TAG := $$(git log -1 --pretty=%H)
-IMG := ${NAME}:${TAG}
-LATEST := ${NAME}:latest
+VERSION := `cat VERSION`
+
+CURRENT := book:${VERSION}
+DOCKERHUB_TARGET := enterhaken/book:${VERSION}
+DOCKERHUB_TARGET_LATEST := enterhaken/book:latest
 
 .PHONY: default
 default: build
@@ -55,8 +56,14 @@ release: build
 
 .PHONY: docker
 docker: 
-	docker build -t ${IMG} .
-	docker tag ${IMG} ${LATEST}
+	docker build -t ${CURRENT} .
+
+.PHONY: docker_push
+docker_push:
+	docker tag $(CURRENT) $(DOCKERHUB_TARGET)
+	docker push $(DOCKERHUB_TARGET)
+	docker tag $(CURRENT) $(DOCKERHUB_TARGET_LATEST)
+	docker push $(DOCKERHUB_TARGET_LATEST)
 
 .PHONY: docker_run
 docker_run:
@@ -77,7 +84,3 @@ ignore:
 	find deps/ > .ignore || true
 	find doc/ >> .ignore || true
 	find _build/ >> .ignore || true
-:qa!
-	find priv/styles/node_modules/ >> .ignore || true
-	find priv/styles/css/ >> .ignore || true
-	find priv/generated/ >> .ignore || true
