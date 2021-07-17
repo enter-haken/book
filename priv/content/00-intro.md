@@ -27,6 +27,23 @@ It was quiet a lot of fun, and I have a new playground for `angular` and `elixir
 There is no need for a personalized login.
 Every retro session is only kept within memory.
 
+## Memory UI
+
+![mui](/images/mui.png)
+
+How are thoughts linked?
+
+I first started with the [brain project][5]. 
+I placed every memory within a markdown file.
+Every file contains a header with metadata and some text.
+Every memory can have a link to an other memory.
+All memories and all links represents a knowlede graph, presented by an [adjacency list][6].
+I collected some [memories][7] over time.
+
+To get a first impression for usefullness, I created a [static client][8].
+
+You can [play around][9] if you like.
+
 ## frank
 
 I think, `github` is one of the best plattforms, created in the last decades.
@@ -84,3 +101,9 @@ But if you have a more complex application you might need something like [infras
 [2]: https://git-scm.com/docs/git-grep
 [3]: https://frank.hake.one
 [4]: https://github.com/enter-haken/frank
+[5]: https://github.com/enter-haken/brain
+[6]: https://en.wikipedia.org/wiki/Adjacency_list
+[7]: https://github.com/enter-haken/memories
+[8]: https://github.com/enter-haken/mui-static
+[9]: https://mui.hake.one
+
