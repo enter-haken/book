@@ -1,6 +1,6 @@
 # styles builder
 
-FROM node:12.2.0 as styles_builder 
+FROM node:14.8.0 as styles_builder 
 
 # set working directory
 WORKDIR /app
@@ -16,7 +16,7 @@ RUN make deep_clean build
 
 # backend builder
 
-FROM elixir:1.9.4 AS backend_builder
+FROM elixir:1.10.4 AS backend_builder
 
 WORKDIR /app
 
@@ -35,7 +35,7 @@ RUN make release
 
 # backend runner
 
-FROM elixir:1.9.4-slim AS runner
+FROM elixir:1.10.4-slim AS runner
 
 WORKDIR /app
 
